@@ -41,11 +41,23 @@
   animation-iteration-count: calc(var(--animate-repeat) * 3);
 }
 
+.animate__animated.animate__delay-0-5s {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: calc(var(--animate-delay) / 2);
+  animation-delay: calc(var(--animate-delay) / 2 );
+}
 .animate__animated.animate__delay-1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  -webkit-animation-delay: var(--animate-delay);
-  animation-delay: var(--animate-delay);
+  -webkit-animation-delay: var(--animate-delay) ;
+  animation-delay: var(--animate-delay) ;
+}
+.animate__animated.animate__delay-1-5s {
+  -webkit-animation-delay: calc(3s / 2);
+  animation-delay: calc(3s / 2);
+  -webkit-animation-delay: calc(var(--animate-delay) * 3 / 2);
+  animation-delay: calc(var(--animate-delay) * 3 / 2);
 }
 .animate__animated.animate__delay-2s {
   -webkit-animation-delay: calc(1s * 2);
@@ -53,11 +65,23 @@
   -webkit-animation-delay: calc(var(--animate-delay) * 2);
   animation-delay: calc(var(--animate-delay) * 2);
 }
+.animate__animated.animate__delay-2-5s {
+  -webkit-animation-delay: calc(5s * 2);
+  animation-delay: calc(5s * 2);
+  -webkit-animation-delay: calc(var(--animate-delay) * 5 / 2);
+  animation-delay: calc(var(--animate-delay) * 5 / 2);
+}
 .animate__animated.animate__delay-3s {
   -webkit-animation-delay: calc(1s * 3);
   animation-delay: calc(1s * 3);
   -webkit-animation-delay: calc(var(--animate-delay) * 3);
   animation-delay: calc(var(--animate-delay) * 3);
+}
+.animate__animated.animate__delay-3-5s {
+  -webkit-animation-delay: calc(1s * 7 / 2);
+  animation-delay: calc(1s * 7 / 2);
+  -webkit-animation-delay: calc(var(--animate-delay) * 7 / 2);
+  animation-delay: calc(var(--animate-delay) * 7 / 2);
 }
 .animate__animated.animate__delay-4s {
   -webkit-animation-delay: calc(1s * 4);
@@ -65,41 +89,17 @@
   -webkit-animation-delay: calc(var(--animate-delay) * 4);
   animation-delay: calc(var(--animate-delay) * 4);
 }
+.animate__animated.animate__delay-4-5s {
+  -webkit-animation-delay: calc(1s * 9 / 2);
+  animation-delay: calc(1s * 9 / 2);
+  -webkit-animation-delay: calc(var(--animate-delay) * 9 / 2);
+  animation-delay: calc(var(--animate-delay) * 9 / 2);
+}
 .animate__animated.animate__delay-5s {
   -webkit-animation-delay: calc(1s * 5);
   animation-delay: calc(1s * 5);
   -webkit-animation-delay: calc(var(--animate-delay) * 5);
   animation-delay: calc(var(--animate-delay) * 5);
-}
-.animate__animated.animate__delay-6s {
-  -webkit-animation-delay: calc(1s * 6);
-  animation-delay: calc(1s * 6);
-  -webkit-animation-delay: calc(var(--animate-delay) * 6);
-  animation-delay: calc(var(--animate-delay) * 6);
-}
-.animate__animated.animate__delay-7s {
-  -webkit-animation-delay: calc(1s * 7);
-  animation-delay: calc(1s * 7);
-  -webkit-animation-delay: calc(var(--animate-delay) * 7);
-  animation-delay: calc(var(--animate-delay) * 7);
-}
-.animate__animated.animate__delay-8s {
-  -webkit-animation-delay: calc(1s * 8);
-  animation-delay: calc(1s * 8);
-  -webkit-animation-delay: calc(var(--animate-delay) * 8);
-  animation-delay: calc(var(--animate-delay) * 8);
-}
-.animate__animated.animate__delay-9s {
-  -webkit-animation-delay: calc(1s * 9);
-  animation-delay: calc(1s * 9);
-  -webkit-animation-delay: calc(var(--animate-delay) * 9);
-  animation-delay: calc(var(--animate-delay) * 9);
-}
-.animate__animated.animate__delay-10s {
-  -webkit-animation-delay: calc(1s * 10);
-  animation-delay: calc(1s * 10);
-  -webkit-animation-delay: calc(var(--animate-delay) * 10);
-  animation-delay: calc(var(--animate-delay) * 10);
 }
 .animate__animated.animate__faster {
   -webkit-animation-duration: calc(1s / 2);

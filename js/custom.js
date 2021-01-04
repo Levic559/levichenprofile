@@ -12,15 +12,14 @@ $(document).ready(function(){
         }
     })
     /*WoW pluging initialize */
-    $(window).load(function() {
-        var wow = new WOW({
-            boxClass: 'wow',
-            animateClass: 'animated',
-            offset: 100,
-            mobile: true,
-            live: true
-        });
-        wow.init();
-    });
+    wow = new WOW(
+        {
+          boxClass:     'wow',  
+          animateClass: 'animated',
+          offset: 50,
+        }
+      );
+      wow.init();
+      
     
 })
